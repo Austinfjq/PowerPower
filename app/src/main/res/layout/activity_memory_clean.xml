@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id = "@+id/quick_save"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="一键极限省电"
+        android:textSize="50dp"></Button>
+
+    <Button
+    android:id = "@+id/clever_save"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:text="智能省电"
+    android:textSize="50dp"></Button>
+
+    <Button
+        android:id = "@+id/check_save"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="手动省电"
+        android:textSize="50dp"></Button>
+
+    <Button
+        android:id = "@+id/rtn"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="返回"
+        android:textSize="50dp"></Button>
+
+</LinearLayout>

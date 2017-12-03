@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请勾选您拒绝关闭的设置"
+        android:textSize="30dp"
+        android:textColor="@color/green_6a"/>
+
+    <CheckBox
+        android:id="@+id/wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WIFI"
+        android:textSize="40dp"/>
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/data"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="移动数据"-->
+        <!--android:textSize="40dp"/>-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/GPS"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="GPS"-->
+        <!--android:textSize="40dp"/>-->
+
+    <CheckBox
+        android:id="@+id/light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="屏幕亮度"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id = "@+id/done"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="一键省电"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id = "@+id/rtn"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="返回"
+        android:textSize="40dp"></Button>
+
+</LinearLayout>
